@@ -1997,3 +1997,82 @@ body {
 .slides {
   padding: 0;
 }
+
+/* filter list 
+
+
+#portfolio {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#portfolio .portfolio-list {
+  margin-bottom: 50px;
+}
+
+#portfolio .portfolio-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#portfolio .portfolio-list .nav li {
+  margin: 0 20px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #999999;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+*/
+
+
+.embed-responsive-4by4 {
+  padding-bottom: 100%;
+}
+
+/* magnific-popup */
+
+.image-source-link {
+	color: #98C3D1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	/* ideally, transition speed should match zoom duration */
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
