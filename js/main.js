@@ -113,6 +113,13 @@
 
 	};
 
+
+  
+
+
+
+
+
 	// Click outside of offcanvass
 	var mobileMenuOutsideClick = function () {
 
@@ -333,9 +340,19 @@
 	//   };
 	
 
+	var setTyped = function () {
+		// var typed = $(".typed");
 
 
+		var typed3 = new Typed('.typed', {
+			strings: ["BASTIAN FLORES.", "FOTOGRAFO.", "FREELANCER.", "DISEÑADOR."],
 
+			typeSpeed: 110,
+			loop: true,
+
+		  });
+
+	};
 
 	// Document on load.
 	$(function () {
@@ -357,6 +374,7 @@
 		owlCrouselFeatureSlide();
 		setGallery();
 		// magnifPopup();
+		setTyped();
 
 	});
 
@@ -364,6 +382,9 @@
 }());
 
 $(document).ready(function() {
+
+
+  
 	$('.zoom-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
