@@ -339,21 +339,6 @@
 	 	});
 	   };
 	
-
-	var setTyped = function () {
-		// var typed = $(".typed");
-
-
-		var typed3 = new Typed('.typed', {
-			strings: ["BASTIAN FLORES.", "FOTOGRAFO.", "FREELANCER.", "DISEÑADOR."],
-
-			typeSpeed: 110,
-			loop: true,
-
-		  });
-
-	};
-
 	// Document on load.
 	$(function () {
 		fullHeight();
@@ -374,7 +359,6 @@
 		owlCrouselFeatureSlide();
 		setGallery();
 		// magnifPopup();
-		setTyped();
 
 	});
 
