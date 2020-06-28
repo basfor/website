@@ -307,7 +307,7 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   #colorlib-main {
     width: 100%;
-    padding: 0 1em;
+    padding: 0 0em;
   }
 }
 
@@ -491,7 +491,6 @@ body.offcanvas #colorlib-aside {
   -o-transform: translateX(0);
   transform: translateX(0);
   width: 300px;
-  background: #c5c5c5;
   z-index: 999;
   position: fixed;
 }
@@ -2104,4 +2103,13 @@ body {
   height: 35px;
   padding: 5px;
 
+}
+#barrita {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: lowercase;
+  letter-spacing: 1px;
 }
