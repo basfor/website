@@ -15,6 +15,4 @@ jobs:
         uses: calibreapp/image-actions@master
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          jpegQuality: "80"
-          jpegProgressive: false
           ignorePaths: "images/Conciertos/**,images/Daily/**,images/Manifestaciones/**"
